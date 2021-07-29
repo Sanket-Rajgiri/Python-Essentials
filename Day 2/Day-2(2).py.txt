@@ -1,0 +1,15 @@
+#Assignment Day-2 Check if string is Pangram or not
+
+
+string="To begin with, your interview preparations Enhance your Data Structures concepts "
+flag=True
+alphabet="abcdefghijklmnopqrstuvwxyz"
+
+for char in alphabet:
+  if char not in string.lower():
+    flag=False
+
+if(flag==True):
+  print("String is Pangram")
+else :
+  print("String is not Pangram")
