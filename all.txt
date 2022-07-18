@@ -1,0 +1,25 @@
+git diff command compares working directory with staging area
+
+git diff --staged command compares staging area with previous commit
+
+Using following command we can skip the staging of modified files and can perform a direct commit:
+
+git commit -a -m "Commit Message"
+
+But this command will only commit the "Tracked files in your directory"
+It will not be able to commit "Untracked" Files
+
+git rm "File_Name" is used to remove a file
+
+git add .   or   git add --a  both can used to stage all the files in current working directory 
+
+git init command is used to intialize an empty repo in current directory
+
+git status 
+
+git log 
+
+git commit -m "Commit Message"
+
+
+git mv "FileName" "NewFileName" can be used to rename a file
